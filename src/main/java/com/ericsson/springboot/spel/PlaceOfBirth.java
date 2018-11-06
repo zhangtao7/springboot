@@ -4,6 +4,16 @@ public class PlaceOfBirth {
 
 	private String city;
 	private String country;
+	
+	public PlaceOfBirth() {
+		
+	}
+	
+	public PlaceOfBirth(String city, String country) {
+		super();
+		this.city = city;
+		this.country = country;
+	}
 	public String getCity() {
 		return city;
 	}
